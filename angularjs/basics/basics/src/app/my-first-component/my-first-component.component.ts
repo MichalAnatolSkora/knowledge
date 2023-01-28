@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-first-component.component.css']
 })
 export class MyFirstComponentComponent {
+  public collection: IMyFirstComponentElement[] = [{name: "name1"}, {name: "name2"}];
+}
 
+interface IMyFirstComponentElement {
+  name: string;
 }
