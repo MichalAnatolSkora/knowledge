@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-my-first-component',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MyFirstComponentComponent {
   public collection: IMyFirstComponentElement[] = [{name: "name1"}, {name: "name2"}];
+  @Input() public inputVariable: string = "";
 }
 
 interface IMyFirstComponentElement {
