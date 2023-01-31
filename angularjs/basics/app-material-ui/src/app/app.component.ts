@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app-material-ui';
+  public title = 'app-material-ui';
+  public howManyTimesClicked: number = 0;
+
+  public click(): void {
+    this.howManyTimesClicked++;
+  }
 }
