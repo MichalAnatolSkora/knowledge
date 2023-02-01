@@ -3,3 +3,6 @@ Learn and practice by examples. Basically this repo is for me but I will be extr
 
 ## Scope
 I am going to add all programing languages that I practice.
+
+## To cover
+rxjs -> combineLatest
